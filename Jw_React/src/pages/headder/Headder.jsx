@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import "./headder.css";
+import "./Headder.css";
 
 function Headder() {
   const token = localStorage.getItem("token");
